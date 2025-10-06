@@ -1,0 +1,30 @@
+.container {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	gap: $spacing-lg;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: $spacing-md;
+}
+
+.controls {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: $spacing-md;
+}
+
+.loading,
+.error {
+	text-align: center;
+	padding: $spacing-lg;
+	color: $secondary-color;
+}
+
+.error {
+	color: #d32f2f;
+}

@@ -1,0 +1,7 @@
+.home {
+	@include flex-center;
+	flex-direction: column;
+	width: 1440px;
+	margin: 0 auto;
+	gap: $spacing-lg;
+}

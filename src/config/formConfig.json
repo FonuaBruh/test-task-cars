@@ -1,0 +1,95 @@
+{
+	"carForm": {
+		"title": "Добавить автомобиль",
+		"fields": [
+			{
+				"name": "name",
+				"label": "Название",
+				"type": "text",
+				"required": true
+			},
+			{
+				"name": "model",
+				"label": "Модель",
+				"type": "text",
+				"required": true
+			},
+			{
+				"name": "year",
+				"label": "Год",
+				"type": "number",
+				"required": true
+			},
+			{
+				"name": "price",
+				"label": "Цена",
+				"type": "number",
+				"required": true
+			},
+			{
+				"name": "color",
+				"label": "Цвет",
+				"type": "color",
+				"required": false
+			},
+			{
+				"name": "latitude",
+				"label": "Широта",
+				"type": "number",
+				"required": false
+			},
+			{
+				"name": "longitude",
+				"label": "Долгота",
+				"type": "number",
+				"required": false
+			}
+		],
+		"buttons": {
+			"submit": {
+				"text": "Создать",
+				"variant": "primary",
+				"type": "submit"
+			},
+			"cancel": {
+				"text": "Отмена",
+				"variant": "secondary",
+				"type": "button"
+			}
+		}
+	},
+	"editCarForm": {
+		"title": "Редактировать автомобиль",
+		"fields": [
+			{
+				"name": "name",
+				"label": "Название",
+				"type": "text",
+				"required": true
+			},
+			{
+				"name": "price",
+				"label": "Цена",
+				"type": "number",
+				"required": true
+			}
+		],
+		"buttons": {
+			"submit": {
+				"text": "Сохранить",
+				"variant": "primary",
+				"type": "submit"
+			},
+			"cancel": {
+				"text": "Отмена",
+				"variant": "secondary",
+				"type": "button"
+			},
+			"delete": {
+				"text": "Удалить",
+				"variant": "secondary",
+				"type": "button"
+			}
+		}
+	}
+}

@@ -1,0 +1,11 @@
+.header {
+	@include flex-center;
+	width: 100%;
+	background: $card-bg;
+	color: $text-color;
+	padding: $spacing-md;
+	border-bottom: 2px solid $secondary-color;
+	border-radius: $border-radius;
+	font-size: 1.5rem;
+	font-weight: bold;
+}

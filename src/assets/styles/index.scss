@@ -1,0 +1,13 @@
+@import "./variables";
+@import "./mixins";
+@import "./reset";
+@import "../fonts/fonts";
+
+body {
+	font-family: 'HYWenHei', sans-serif;
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+}

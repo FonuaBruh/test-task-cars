@@ -1,0 +1,24 @@
+.form {
+	display: flex;
+	flex-direction: column;
+}
+
+.field {
+	@include form-field;
+}
+
+.label {
+	@include form-label;
+}
+
+.colorInput {
+	width: 60px;
+	height: 40px;
+	border: 1px solid $secondary-color;
+	border-radius: $border-radius-sm;
+	cursor: pointer;
+}
+
+.actions {
+	@include button-actions;
+}

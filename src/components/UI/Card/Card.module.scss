@@ -1,0 +1,48 @@
+.card {
+	@include card;
+	position: relative;
+	overflow: hidden;
+	transition: all $transition-speed-slow ease;
+	cursor: pointer;
+
+	&:hover {
+		transform: translateY(-4px);
+		box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+	}
+}
+
+.ribbon {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 30px;
+	height: 30px;
+	border-top: 4px solid;
+	border-right: 4px solid;
+	border-color: inherit;
+	filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.3));
+}
+
+.title {
+	font-size: 1.1rem;
+	font-weight: 600;
+	color: $text-color;
+	margin-bottom: $spacing-md;
+}
+
+.info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.year {
+	color: $secondary-color;
+	font-size: 0.9rem;
+}
+
+.price {
+	font-size: 1.25rem;
+	font-weight: 700;
+	color: $primary-color;
+}

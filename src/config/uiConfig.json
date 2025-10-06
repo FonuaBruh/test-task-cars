@@ -1,0 +1,22 @@
+{
+	"button": {
+		"variants": {
+			"primary": {
+				"className": "primary"
+			},
+			"secondary": {
+				"className": "secondary"
+			}
+		},
+		"defaults": {
+			"variant": "primary",
+			"type": "button"
+		}
+	},
+	"input": {
+		"defaults": {
+			"type": "text",
+			"required": false
+		}
+	}
+}

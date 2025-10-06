@@ -1,0 +1,50 @@
+.overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.5);
+	@include flex-center;
+	z-index: 1000;
+}
+
+.modal {
+	background: $card-bg;
+	border-radius: $border-radius;
+	padding: $spacing-lg;
+	max-width: 500px;
+	width: 90%;
+	max-height: 90vh;
+	overflow-y: auto;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: $spacing-md;
+
+	h2 {
+		color: $text-color;
+		font-size: 1.5rem;
+	}
+}
+
+.close {
+	background: none;
+	border: none;
+	font-size: 2rem;
+	cursor: pointer;
+	color: $text-color;
+	line-height: 1;
+	transition: opacity $transition-speed;
+
+	&:hover {
+		opacity: 0.7;
+	}
+}
+
+.content {
+	color: $text-color;
+}

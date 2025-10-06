@@ -1,0 +1,25 @@
+.button {
+	padding: $spacing-md 20px;
+	border: none;
+	border-radius: $border-radius-lg;
+	font-family: inherit;
+	font-weight: 600;
+	font-size: inherit;
+	letter-spacing: 1px;
+	cursor: pointer;
+	transition: all $transition-speed;
+
+	&:hover {
+		opacity: 0.9;
+	}
+}
+
+.primary {
+	background: $primary-color;
+	color: white;
+}
+
+.secondary {
+	background: $secondary-color;
+	color: white;
+}

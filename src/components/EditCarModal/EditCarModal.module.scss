@@ -1,0 +1,15 @@
+.form {
+	display: flex;
+	flex-direction: column;
+}
+
+.actions {
+	display: flex;
+	justify-content: space-between;
+	margin-top: $spacing-md;
+}
+
+.mainActions {
+	display: flex;
+	gap: $spacing-sm;
+}

@@ -1,0 +1,19 @@
+.field {
+	@include form-field;
+}
+
+.label {
+	@include form-label;
+}
+
+.input {
+	padding: 10px;
+	border: 1px solid $secondary-color;
+	border-radius: $border-radius-sm;
+	font-size: 1rem;
+	outline: none;
+
+	&:focus {
+		border-color: $primary-color;
+	}
+}
